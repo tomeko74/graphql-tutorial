@@ -8,8 +8,7 @@ const authors = [{
     name: "George RR Martin",
     age: 60,
     books: ["GOT - Song of Ice and Fire", "GOT - A Dance with Dragons"]
-},
-{
+}, {
     id: 12,
     name: "Stephen King",
     age: 60,

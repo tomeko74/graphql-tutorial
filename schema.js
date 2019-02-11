@@ -13,5 +13,6 @@ const typeDefs = `type Author {
 `; 
 
 const schema = makeExecutableSchema({typeDefs, resolvers});
+// addMockFunctionsToSchema{{schema}};
 
 export default schema;
