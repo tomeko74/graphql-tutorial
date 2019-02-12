@@ -8,7 +8,8 @@ const typeDefs = `type Author {
 }
     type Query {
         authors: [Author]
-        author(id: Int): Author
+        author_by_id(id: Int): Author
+        author_by_age(age: Int): Author
     }
 `; 
 
